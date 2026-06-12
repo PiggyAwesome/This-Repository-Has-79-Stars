@@ -4,14 +4,14 @@ Here is the genius program behind this repository
 import requests
 import time
 import random
-from github import Github
+from github import Github, Auth
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 token = os.getenv("GITHUB_TOKEN")
 
-gh = Github(token)
+gh = Github(auth=Auth.Token(token))
 
 headers = {"Accept": "application/vnd.github.v3+json", "Authorization": f"token {token}"}
 
