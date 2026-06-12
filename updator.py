@@ -5,9 +5,11 @@ import requests
 import time
 import random
 from github import Github
+from dotenv import load_dotenv
+import os
 
-
-token = ""
+load_dotenv()
+token = os.getenv("GITHUB_TOKEN")
 
 gh = Github(token)
 
