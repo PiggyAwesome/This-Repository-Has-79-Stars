@@ -1,6 +1,6 @@
 # I bet you can't prove me wrong!
 
-78 Stars!
+79 Stars!
 
 ```py
 star_this_repo()       # Star this repostory
@@ -8,7 +8,7 @@ time.sleep(60)         # Wait 60 seconds
 reload()               # Reload
 
 if title not correct:  # If the title is not correct
-   i_win = False       # You win! 
+   i_win = False       # You win!
 elif title == correct: # Else if the title is correct
    i_win = True        # I win!
 
